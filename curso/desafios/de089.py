@@ -14,5 +14,17 @@ while opcao != 'N':
 for i in range(0,cont):
     media.append((alunos[i][1] + alunos[i][2])/2)
 print('=-'*20)
+print('No.   Nome          Média')
+print('-'*28)
+for i in range(0,cont):
+    print(f'{i:<6}{alunos[i][0]:<15}{media[i]:>.1f}')
+print('-'*28)
+opcao = ''
+while True:
+    opcao = int(input('Mostrar notas de qual aluno?: (999 Interrompe)'))
+    if opcao == 999:
+        break
+    print(f'Notas de {alunos[opcao][0]} são {alunos[opcao][1:3]}')
+    print('-'*28)
 
 
