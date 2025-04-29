@@ -4,4 +4,10 @@ def jogador(nome = '<desconhecido>' , gols = 0):
 nome = input('Nome jogador: ')
 gols = input('Número de gols: ')
 
-jogador(nome = nome, gols= gols)
+if nome == '':
+    jogador(gols = gols)
+elif gols == '':
+    jogador(nome = nome)
+else:
+    jogador(nome, gols)
+
