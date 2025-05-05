@@ -10,4 +10,3 @@ elif gols == '':
     jogador(nome = nome)
 else:
     jogador(nome, gols)
-

@@ -7,4 +7,4 @@ def verifica(n):
 
 numero = input('Digite um numero: ')
 verifica(numero)
-
+  
