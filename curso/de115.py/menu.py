@@ -17,4 +17,4 @@ while True:
         print('Saindo do sistema... Até logo!')
         print('-' * 40)
         break
-        
+    
