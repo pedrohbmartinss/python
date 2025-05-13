@@ -2,6 +2,9 @@ def verificaint(msg):
     while True:
         try:
             n = int(input(msg))
+            if n > 3:
+                print('ERRO: por favor, digite um número inteiro válido')
+                continue
         except:
             print('ERRO: por favor, digite um número inteiro válido')
         else:
